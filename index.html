@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+     <section class="nav-container container-fluid">
+        <nav class="navbar container">
+            <div class="brand-title">MyWebsite</div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#indianCulture">Indian Culture</a></li>
+                    <li><a href="#indianHeritage">Indian Heritage</a></li>
+                    
+                </ul>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button>Search</button>
+            </div>
+        </nav>
+     </section>
+
+     <!-- Hero section -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Our World</h1>
+            <p>Experience the beauty of nature like never before.</p>
+            <a href="#discover" class="hero-btn">Discover More</a>
+        </div>
+        <div class="overlay"></div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Indian Culture</h2>
+            <p>India is renowned for its diverse and vibrant culture, which is a blend of various traditions, languages, religions, and arts. This website aims to showcase the multifaceted aspects that make Indian culture unique.</p>
+        </div>
+    </section>
+
+    <!-- Festivals Section -->
+    <section id="festivals" class="festivals">
+        <div class="container">
+            <h2>Festivals</h2>
+            <div class="festivals-grid">
+                <div class="festival-item">
+                    <img src="assets/diwali.jpeg" alt="Diwali">
+                    <h3>Diwali</h3>
+                    <p>The Festival of Lights, symbolizing the victory of light over darkness.</p>
+                </div>
+                <div class="festival-item">
+                    <img src="assets/holi.jpg" alt="Holi">
+                    <h3>Holi</h3>
+                    <p>The Festival of Colors, celebrating the arrival of spring.</p>
+                </div>
+                <div class="festival-item">
+                    <img src="assets/eid.jpeg" alt="Eid">
+                    <h3>Eid</h3>
+                    <p>A significant festival for Muslims, marking the end of Ramadan.</p>
+                </div>
+                <div class="festival-item">
+                    <img src="assets/christmas.jpeg" alt="Christmas">
+                    <h3>Christmas</h3>
+                    <p>A festival celebrated by the Christian community in India.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Indian Culture Section -->
+    <section id="indianCulture" class="art">
+        <div class="container">
+            <h2>Indian Culture</h2>
+            <div class="art-grid">
+                <div class="art-item">
+                    <img src="assets/madhubani.webp" alt="Madhubani Painting">
+                    <h3>Art</h3>
+                    <p>A traditional Indian painting style originating from Bihar.</p>
+                    <button><a href="./Art/culture.html">Read More</a></button>
+                </div>
+                <div class="art-item">
+                    <img src="assets/pottery.jpeg" alt="Pottery">
+                    <h3>Language</h3>
+                    <p>Artistic pottery that reflects the cultural heritage of India.</p>
+                </div>
+                <div class="art-item">
+                    <img src="assets/holi.jpg" alt="Textiles">
+                    <h3>Festivals</h3>
+                    <p>Intricate textile arts including sarees, embroidery, and more.</p>
+                </div>
+                <!-- Add more art items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Indian Heritage Section -->
+    <section id="indianHeritage" class="cuisine">
+        <div class="container">
+            <h2>Indian Heritage</h2>
+            <div class="cuisine-grid">
+                <div class="cuisine-item">
+                    <img src="assets/curry.jpeg" alt="Spicy Curries">
+                    <h3>Natural</h3>
+                    <p>Delicious and aromatic curries from various regions of India.</p>
+                </div>
+                <div class="cuisine-item">
+                    <img src="assets/dosa.jpeg" alt="Dosa">
+                    <h3>Human Made</h3>
+                    <p>A popular South Indian dish made from fermented rice batter.</p>
+                </div>
+                <!-- Add more cuisine items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <!-- <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/gallery1.jpg" alt="Gallery Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery2.jpg" alt="Gallery Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery3.webp" alt="Gallery Image 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery4.jpg" alt="Gallery Image 4">
+                </div>
+            </div>
+        </div> -->
+
+        <!-- gallery 2 -->
+     
+        <div class="gallery-container">
+            <button class="scroll-btn left" id="scroll-left">&lt;</button>
+            <div class="image-gallery" id="image-gallery">
+                <img src="assets/gallery1.jpg" alt="Image 1">
+                <img src="assets/gallery2.jpg" alt="Image 2">
+                <img src="assets/gallery3.webp" alt="Image 3">
+                <img src="assets/gallery4.jpg" alt="Image 4">
+                <img src="assets/gallery1.jpg" alt="Image 5">
+                <img src="assets/gallery2.jpg" alt="Image 6">
+                <img src="assets/gallery3.webp" alt="Image 7">
+                <img src="assets/gallery4.jpg" alt="Image 8">
+            </div>
+            <button class="scroll-btn right" id="scroll-right">&gt;</button>
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Indian Culture. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
